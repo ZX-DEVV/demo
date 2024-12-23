@@ -1,0 +1,33 @@
+Primary Background:
+
+Hex: #1E1E2F (Dark Navy)
+Use for the main background to create a sleek and immersive atmosphere.
+Secondary Background:
+
+Hex: #28293D (Deep Slate Gray)
+Use for cards, panels, or sections for contrast.
+Primary Accent:
+
+Hex: #FF4D4D (Neon Red)
+Use for buttons, important notifications, or highlights.
+Secondary Accent:
+
+Hex: #4CAF50 (Vivid Green)
+Use for success messages, status indicators, or secondary highlights.
+Highlight Color:
+
+Hex: #0099FF (Bright Cyan)
+Use for hover effects, links, or interactive elements.
+Text Primary:
+
+Hex: #FFFFFF (Bright White)
+Use for headings, important text, and calls to action.
+Text Secondary:
+
+Hex: #B0B0B0 (Light Gray)
+Use for body text or less prominent text.
+
+
+
+
+main card = card
