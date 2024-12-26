@@ -811,6 +811,50 @@ a{
   </div>
 </div>
 </div>
+  
+    <style>
+        body {
+        
+            text-align: center;
+           
+          
+        }
+        .counter {
+            font-size: 2rem;
+            color: #4CAF50;
+            margin-top: 20px;
+        }
+    </style>
+
+    <h1>Welcome to My Website!</h1>
+    <p class="counter">Loading...</p>
+
+    <script>
+        // Function to update the visitor counter
+        function updateCounter() {
+            // Get the current count from localStorage or set to 0 if not found
+            let count = localStorage.getItem('visitorCount');
+            if (!count) {
+                count = 0;
+            } else {
+                count = parseInt(count, 10);
+            }
+
+            // Increment the count
+            count++;
+
+            // Save the updated count back to localStorage
+            localStorage.setItem('visitorCount', count);
+
+            // Display the updated count
+            document.querySelector('.counter').textContent = `This site has been visited ${count} times in this browser.`;
+        }
+
+        // Call the function to update the counter
+        updateCounter();
+    </script>
+
+
 
 
   
